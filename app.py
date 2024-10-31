@@ -1,5 +1,5 @@
 import pandas as pd
-data_to_show=pd.read_csv("answers.csv", delimiter=";")
+data_to_show=pd.read_csv("answers.csv", delimiter=",")
 from dash import Dash, html, dash_table, dcc, Input, Output,callback
 app = Dash()
 server = app.server
